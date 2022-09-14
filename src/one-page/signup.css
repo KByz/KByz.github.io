@@ -58,10 +58,9 @@
    /* The side navigation menu */
 .sidebar {
     margin: 0%;
-    padding-left: 7px;
     width: 300px;
     background-color: #c1d7e0;
-    position: fixed;
+    position: absolute;
     height: auto;
     overflow: auto;
   }
