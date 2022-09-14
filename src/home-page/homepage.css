@@ -32,10 +32,9 @@
    /* The side navigation menu */
 .sidebar {
     margin: 0%;
-    padding-left: 7px;
     width: 300px;
     background-color: #c1d7e0;
-    position: fixed;
+    position: absolute;
     height: auto;
     overflow: auto;
   }
@@ -56,7 +55,8 @@
   
   /* Links on mouse-over */
   .sidebar a:hover:not(.active) {
-    background-color: #555;
+    background-color: rgb(89, 89, 95);
+    transition: 0.3s;
     color: white;
   }
   
