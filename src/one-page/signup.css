@@ -9,11 +9,18 @@
   }
   
   /* Header/Blog Title */
-  .header {
-    padding: 30px;
-    font-size: 40px;
-    text-align: center;
-    background: white;
+  .banner {
+    background-repeat: no-repeat;
+    height: 275px;
+    width: auto;
+  }
+
+  .logo {
+    object-fit: fill;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 30px;
   }
 
  input[type=text] {
