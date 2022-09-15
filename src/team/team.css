@@ -31,28 +31,10 @@
     box-sizing: border-box;
     display: block;
   }
-/*submit button*/
-  button {
-    background-color: #004b72;
-    font-size: medium;
-    font-family: Lato;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-
-  button:hover {
-    background-color: #9acfdf;
-    color: rgb(0, 0, 0);
-    transition: 0.3s;
-  }
 
   /* Create two unequal columns that floats next to each other */
   /* Left column */
-  .leftcolumn {
+.leftcolumn {
     float: left;
     width: 25%;
   }
@@ -82,7 +64,8 @@
   
   /* Links on mouse-over */
   .sidebar a:hover:not(.active) {
-    background-color: #555;
+    background-color: rgb(89, 89, 95);
+    transition: 0.3s;
     color: white;
   }
   
@@ -92,6 +75,14 @@
     padding: 1px 16px;
     height: 1000px;
   }
+
+  /*profiles for trainers*/
+.profile img {
+  width: 150px;
+  float: left;
+  border-radius: 5px;
+  margin-right: 5px;
+}
   
   /* On screens that are less than 700px wide, make the sidebar into a topbar */
   @media screen and (max-width: 700px) {
