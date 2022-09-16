@@ -13,12 +13,13 @@
     width: 100%;
   }
 
-  /*Header image*/
+  /* header image */
   .logo {
-    float: center;
-    object-fit: contain;
-    height: 100%;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    height: 285px;
     width: 100%;
+    padding-bottom: 30px;
   }
 
  input[type=text] {
