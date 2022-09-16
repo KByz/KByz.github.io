@@ -1,20 +1,18 @@
 * {
     box-sizing: border-box;
   }
-  
-  body {
-    font-family: Arial;
-    padding: 20px;
-    background: #f1f1f1;
-  }
-  
-  /* Header/Blog Title */
+   /* Header/Blog Title */
   .header {
     background-repeat: no-repeat;
-    height: 430px;
-    width: auto;
+    height: 380px;
+    width: 100%;
   }
 
+  body {
+    font-family: Lato;
+    background: rgb(224, 224, 224);
+  }
+ 
   .logo {
     object-fit: fill;
     background-repeat: no-repeat;
