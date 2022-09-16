@@ -4,15 +4,12 @@
   
   body {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
     background: #b9b9b9;
   }
   
   /* Header/Blog Title */
   .header {
-    background-color: #004b72;
-    background-repeat: no-repeat;
-    height: 250px;
+    height: 100%;
     width: 100%;
   }
 
@@ -20,8 +17,8 @@
   .logo {
     float: center;
     object-fit: contain;
-    height: 250px;
-    width: 250px;
+    height: 100%;
+    width: 100%;
   }
 
  input[type=text] {
