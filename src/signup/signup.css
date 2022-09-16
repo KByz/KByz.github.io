@@ -8,16 +8,16 @@
   }
   
   /* Header/Blog Title */
-  .banner {
+  .header {
     background-repeat: no-repeat;
-    height: 275px;
+    height: 150px;
     width: auto;
   }
 
   .logo {
     object-fit: fill;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 285px;
     width: 100%;
     padding-bottom: 30px;
   }
