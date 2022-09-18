@@ -4,7 +4,7 @@
    /* Header/Blog Title */
   .header {
     background-repeat: no-repeat;
-    height: 380px;
+    height: auto;
     width: 100%;
   }
 
@@ -16,7 +16,7 @@
   .logo {
     object-fit: fill;
     background-repeat: no-repeat;
-    height: 100%;
+    height: auto;
     width: 100%;
     padding-bottom: 30px;
   }
@@ -72,7 +72,7 @@
       height: auto;
       position: relative;
     }
-    .sidebar a {float: left;}
+    .sidebar a {float: top;}
     div.content {margin-left: 5;}
   }
   
