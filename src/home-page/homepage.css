@@ -31,8 +31,10 @@
 .sidebar {
     margin: 0%;
     width: 300px;
+    text-align: center;
+    font-weight: bold;
     background-color: #c1d7e0;
-    position: absolute;
+    position: fixed;
     height: auto;
     overflow: auto;
   }
@@ -101,16 +103,11 @@
   
   /* Add a card effect for articles */
   .card {
+    display: flex;
+    flex-wrap: wrap;
     background-color: white;
     padding: 20px;
     margin-top: 20px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
   }
   
   /* Footer */
