@@ -31,8 +31,6 @@
 .sidebar {
     margin: 0%;
     width: 300px;
-    text-align: center;
-    font-weight: bold;
     background-color: #c1d7e0;
     position: fixed;
     height: auto;
@@ -81,8 +79,8 @@
   /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
   @media screen and (max-width: 400px) {
     .sidebar a {
-      text-align: center;
-      display: flexbox;
+      text-align: left;
+      display: flex;
       float: none;
     }
   } 
