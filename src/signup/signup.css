@@ -14,6 +14,15 @@
     width: auto;
   }
 
+  h2 {
+    font-family: lato;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: #004b72;
+  }
+
   .logo {
     object-fit: fill;
     background-repeat: no-repeat;
@@ -23,9 +32,8 @@
   }
 
  input[type=text] {
-    width: 50%;
+    width: 80%;
     padding: 12px 20px;
-    margin: 8px 0;
     box-sizing: border-box;
     display: block;
   }
@@ -59,7 +67,7 @@
     margin: 0%;
     width: 300px;
     background-color: #c1d7e0;
-    position: absolute;
+    position: fixed;
     height: auto;
     overflow: auto;
   }
