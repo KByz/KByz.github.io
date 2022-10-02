@@ -43,6 +43,7 @@
     color: black;
     padding: 16px;
     font-family: lato;
+    text-align: center;
   }
   
   /* Active/current link */
@@ -67,10 +68,48 @@
 
   /*profiles for trainers*/
 .profile img {
-  width: 150px;
+  display: block;
+  width: 180px;
   float: left;
   border-radius: 5px;
-  margin-right: 5px;
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 600px) {
+  .profile img {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+  
+.module  {
+  position: relative;
+  width: 50%;
+  height: 45%;
+  margin: auto;
+  margin-top: 5%;
+  background: rgb(214, 214, 255);
+  border: 5px;
+  border-radius: 5px;
+  border-style: groove;
+  border-color: #004b72;
+}
+
+h5 {
+  font-family: lato;
+  font-size: large;
+  text-align: center;
+  margin-top: 3px;
+  list-style: none;
+}
+
+ul {
+  font-family: lato;
+  font-size: medium;
+  list-style: none;
+  text-align: match-parent;
 }
   
   /* On screens that are less than 700px wide, make the sidebar into a topbar */
@@ -84,7 +123,7 @@
     div.content {margin-left: 5;}
   }
   
-  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  /* On screens that are less than 600px, display the bar vertically, instead of horizontally */
   @media screen and (max-width: 600px) {
     .sidebar a {
       text-align: center;
