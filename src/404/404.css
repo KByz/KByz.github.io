@@ -1,0 +1,57 @@
+body {
+    font-family: lato;
+}
+#logo {
+    width: 50%;
+    height: auto;
+    opacity: 0.3;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    position: relative;
+    text-align: center;
+    color: #000000;
+    margin-top: 10%;
+}
+
+    
+#center {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-family: old english text mt;
+    text-decoration: underline;
+    text-decoration-color: #2e3e63;
+}
+
+#center2 {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: old english text mt;
+    background-color: white;
+}
+
+#center3 {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    background-color: white;
+}
+
+#return {
+    position: absolute;
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    background-color: white;
+}
