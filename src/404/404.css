@@ -7,11 +7,21 @@ body {
     opacity: 0.3;
 }
 .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
     position: relative;
     text-align: center;
     color: #000000;
+    margin-top: 10%;
 }
 
+@media screen and (max-width: 600px) {
+    div {
+        font-size: 100%;
+    }
+}
+    
 #center {
     position: absolute;
     top: 30%;
