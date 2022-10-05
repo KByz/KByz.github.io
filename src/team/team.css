@@ -109,15 +109,15 @@ ul {
   font-family: lato;
   font-size: medium;
   list-style: none;
-  text-align: match-parent;
 }
   
-  /* On screens that are less than 700px wide, make the sidebar into a topbar */
-  @media screen and (max-width: 700px) {
+  /* On screens that are less than 600px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 600px) {
     .sidebar {
       width: 100%;
       height: auto;
       position: relative;
+      text-align: center;
     }
     .sidebar a {float: left;}
     div.content {margin-left: 5;}
@@ -127,7 +127,7 @@ ul {
   @media screen and (max-width: 600px) {
     .sidebar a {
       text-align: center;
-      float: none;
+      float: center;
     }
   } 
   
