@@ -61,10 +61,12 @@
     color: rgb(0, 0, 0);
     transition: 0.3s;
   }
-
-  li {
-    text-align: center;
+.card h2{
+  text-align: center;
+}
+  .card li {
     list-style-type: none;
+    text-align: left;
   }
 
   /* Create two unequal columns that floats next to each other */
