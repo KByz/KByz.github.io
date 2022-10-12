@@ -80,7 +80,7 @@
   /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
   @media screen and (max-width: 400px) {
     .sidebar a {
-      text-align: left;
+      text-align: center;
       display: flex;
       float: none;
     }
