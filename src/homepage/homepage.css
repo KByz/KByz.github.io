@@ -104,6 +104,7 @@
   .card {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     background-color: white;
     padding: 20px;
     margin-top: 20px;
@@ -118,17 +119,29 @@
     color: #000000;
     text-align: center;
   }
-  
-  .card img {
+
+  .group img {
     display: flex;
     flex-wrap: wrap;
-    justify-self: center;
     width: auto;
     max-width: 100%;
     height: auto;
     max-height: 400px;
     box-shadow: #4b4a4a 0px 0px 10px;
   }
+  .info  {
+    position: relative;
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: #0f0f0f 0px 0px 10px;
+    padding: 10px;
+    font-family: lato;
+    font-size: 20px;
+  }
+
   /* Footer */
   .footer {
     margin-top: 3%;
