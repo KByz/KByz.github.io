@@ -111,10 +111,10 @@
     height: auto;
   }
   .card h2 {
-    font-family: lato;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: underline;
     text-decoration-color: #004b72;
-    font-size: 30px;
+    font-size: 45px;
     font-weight: bold;
     color: #000000;
     text-align: center;
